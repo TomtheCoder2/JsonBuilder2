@@ -1,0 +1,20 @@
+{
+  "platform": "Windows64",
+  "jdk": "C:\\Program Files\\AdoptOpenJDK\\jdk-15.0.2.7-hotspot",
+  "executable": "jsonBuilder",
+  "classpath": [
+    "./build/libs/JSONBuilder.jar"
+  ],
+  "mainclass": "main.java.jsonBuilder.JsonBuilder",
+  "vmargs": [
+    "Xmx1G"
+  ],
+  "resources": [
+    "src/main/"
+  ],
+  "minimizejre": "soft",
+  "output": "out-mac",
+  "icon" : "./assets/icons/icon_coreNucleus.icns",
+  "bundle": "main.java.jsonBuilder.JsonBuilder",
+  "removelibs": ["out-mac"]
+}

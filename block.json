@@ -1,0 +1,58 @@
+{
+  "name": "phase-weaver",
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 120
+    },
+    {
+      "item": "thorium",
+      "amount": 75
+    },
+    {
+      "item": "silicon",
+      "amount": 130
+    }
+  ],
+  "consumes": {
+    "power": "5.0",
+    "items": {
+      "items": [
+        {
+          "item": "thorium",
+          "amount": 4
+        },
+        {
+          "item": "sand",
+          "amount": 10
+        }
+      ]
+    }
+  },
+  "hasItems": "true",
+  "hasPower": "true",
+  "acceptsItems": "true",
+  "itemCapacity": "20",
+  "liquidCapacity": "10.0",
+  "liquidPressure": "1.0",
+  "update": "true",
+  "solid": "true",
+  "health": "160",
+  "baseExplosiveness": "0.0",
+  "size": "2",
+  "offset": "4.0",
+  "clipSize": "16.0",
+  "sync": "true",
+  "mapColor": "000000ff",
+  "outlineColor": "404049ff",
+  "albedo": "0.0",
+  "lightColor": "ffffffff",
+  "lightRadius": "60.0",
+  "loopSoundVolume": "0.5",
+  "ambientSoundVolume": "0.02",
+  "buildCost": "270.5",
+  "buildCostMultiplier": "1.0",
+  "deconstructThreshold": "0.0",
+  "researchCostMultiplier": "1.0",
+  "selectScroll": "0.0"
+}
